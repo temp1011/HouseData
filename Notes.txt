@@ -1,0 +1,25 @@
+Data source: https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads#yearly-file
+Data schema: https://www.gov.uk/guidance/about-the-price-paid-data
+
+schema: id: uuid
+	price: integer
+	transaction_date: string
+	postcode: string
+	property_type: char
+	old_new: char
+	duration: string
+	poan: string
+	soan: string
+	street: string
+	locality: string
+	town_city: string
+	district: string
+	county: string
+	ppd_category_type: char
+	record_status: char
+
+obviously everything is very insecure at the moment
+would be very cool to use keras + deep learning to predict price of house in area. Obviously not much point compared to more statistical methods though I guess.
+https://github.com/rstudio/cheatsheets/blob/master/keras.pdf
+
+Also would be good to have some kind of postcode search box on the webpage or similar
